@@ -1,0 +1,57 @@
+import type { Product } from "@/types";
+
+// UI placeholder data only — Phase 1 explicitly avoids seeding
+// real Supabase inventory. Real catalog data arrives in Phase 3+.
+export const PLACEHOLDER_PRODUCTS: Product[] = [
+  {
+    id: "ph-1",
+    slug: "sample-heel",
+    name: "Sample Heel",
+    category: "women",
+    subcategory: "Heels",
+    price: 6500,
+    oldPrice: 7800,
+    discountPercent: 17,
+    rating: 4.6,
+    reviewCount: 120,
+    colors: ["#C9A15D", "#241F1D"],
+    images: [],
+    isNew: true,
+  },
+  {
+    id: "ph-2",
+    slug: "sample-sneaker",
+    name: "Sample Sneaker",
+    category: "men",
+    subcategory: "Sneakers",
+    price: 5800,
+    rating: 4.3,
+    reviewCount: 85,
+    colors: ["#FFFFFF", "#241F1D"],
+    images: [],
+  },
+  {
+    id: "ph-3",
+    slug: "sample-kids-shoe",
+    name: "Sample Kids Sneaker",
+    category: "kids",
+    subcategory: "Sneakers",
+    price: 3500,
+    rating: 4.7,
+    reviewCount: 42,
+    colors: ["#F1D9DC"],
+    images: [],
+  },
+  {
+    id: "ph-4",
+    slug: "sample-bag",
+    name: "Sample Handbag",
+    category: "accessories",
+    subcategory: "Bags",
+    price: 4200,
+    rating: 4.4,
+    reviewCount: 30,
+    colors: ["#241F1D", "#B4924C"],
+    images: [],
+  },
+];
